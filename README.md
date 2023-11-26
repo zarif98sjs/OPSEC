@@ -1,1 +1,9 @@
-# OPSEC
+# OPSEC: One Pass Sentence Embedding Clustering
+
+Given the continuous and explosive growth of online text sources like micro-blogging platforms, question-answering forums, and social media, short-text clustering in real time has become a critical task for both business and academia. Clustering short-text streams is difficult due to the high volume of documents available, high velocity of processing required, individual documents being highly sparse, and topics evolving over time. Thus, accurate semantic understanding and representation of the input documents is critical as well as very challenging for short-text stream clustering. Many clustering methods have been proposed previously with a variety of text representations, where some of them have utilized distributed semantic representations like word embeddings. However, with the recent advancement and promising results of sentence-embedding techniques like Universal Sentence Encoder and Sentence-BERT, new avenues have emerged for improving short-text streams by leveraging these powerful sentence-embeddings for semantic representation of short-text documents. Therefore, we propose a new method called One Pass Sentence Embedding Clustering (OPSEC) - an online one-pass algorithm that leverages similarity scores based on sentence embeddings to cluster short texts. Experiments with popular benchmark data-sets demonstrate that sentence-embeddings can outperform existing state-of-the-art short text stream clustering methods in terms of clustering accuracy and quality.
+
+## Contributors
+
+- Minh Smith
+- Md Zarif Ul Alam
+- Ramisa Alam
